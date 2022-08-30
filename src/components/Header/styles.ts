@@ -5,7 +5,7 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 1.5rem 2rem;
 `;
 
 export const Avatar = styled.div`
@@ -22,12 +22,17 @@ export const Avatar = styled.div`
 
 export const Buttons = styled.div`
   display: flex;
+  padding: 0 1rem;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
 
   svg {
-    color: #919191;
-    font-size: 3rem;
+    display: inline-block;
+    padding: .5rem;
+    cursor: pointer;
+    color: var(--icon-color);
+    font-size: 4.5rem;
 
   }
 `;
