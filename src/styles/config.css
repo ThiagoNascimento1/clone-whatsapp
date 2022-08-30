@@ -1,0 +1,15 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Segoe Ui', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+}
+
+:root {
+  --background-body: #d2dbdc;
+}
