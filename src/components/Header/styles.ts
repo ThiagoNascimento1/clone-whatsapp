@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  heigth: 6rem;
+  height: 9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2rem;
+  padding: 0 2rem;
 `;
 
 export const Avatar = styled.div`

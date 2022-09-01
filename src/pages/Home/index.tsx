@@ -3,6 +3,7 @@ import * as C from './styles';
 // Components
 import { Header } from '../../components/Header';
 import { InputSearch } from '../../components/InputSearch';
+import { Chat } from '../../components/chat';
 
 export const Home = () => {
 
@@ -12,11 +13,21 @@ export const Home = () => {
 
         <Header />
         <InputSearch />
-        
-      </C.NavSide>
-      <C.BoxChat>
 
-      </C.BoxChat>
+        <C.ChatList>
+        <Chat />
+        <Chat />
+        <Chat />
+        <Chat />
+        <Chat />
+        <Chat />
+        <Chat />
+        <Chat />
+        <Chat />
+        </C.ChatList>
+
+      </C.NavSide>
+      
     </C.Container>
   )
 };
