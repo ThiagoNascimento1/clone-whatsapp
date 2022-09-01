@@ -27,6 +27,8 @@ export const Home = () => {
         </C.ChatList>
 
       </C.NavSide>
+      <C.ChatActive>
+      </C.ChatActive>
       
     </C.Container>
   )

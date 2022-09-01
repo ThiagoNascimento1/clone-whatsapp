@@ -18,3 +18,10 @@ export const ChatList = styled.div`
   overflow: scroll;
   height: calc(100% - 16rem);
 `;
+
+export const ChatActive = styled.div`
+  width: 75%;
+  background-image: url("./background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+`;
