@@ -44,8 +44,12 @@ export const Name = styled.div`
 `;
 
 export const LastMenssage = styled.div`
+  width: 100%;
   font-size: 2rem;
   color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: sllipsis;
 `;
 
 export const Time = styled.div`

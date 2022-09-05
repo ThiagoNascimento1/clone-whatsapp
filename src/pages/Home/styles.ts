@@ -15,13 +15,20 @@ export const NavSide = styled.div`
 `;
 
 export const ChatList = styled.div`
-  overflow: scroll;
+  overflow-y: scroll;
   height: calc(100% - 16rem);
+  background-color: var(--background-secondary);
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(206, 208, 209, 1);
+    display: block;
+  }
 `;
 
 export const ChatActive = styled.div`
   width: 75%;
-  background-image: url("./background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 `;

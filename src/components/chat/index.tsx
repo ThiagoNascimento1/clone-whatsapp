@@ -9,7 +9,9 @@ export const Chat = () => {
       </C.ImgProfile>
       <C.Main>
         <C.Name>Thiago</C.Name>
-        <C.LastMenssage>tudo bem?</C.LastMenssage>
+        <C.LastMenssage>
+          Olá, Thiago; tudo bem? gostaria de contratar os serviços da sua empresa.
+        </C.LastMenssage>
         <C.Time>4:30 PM</C.Time>
       </C.Main>
     </C.Chat>
